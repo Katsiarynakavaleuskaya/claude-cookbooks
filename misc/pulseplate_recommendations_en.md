@@ -13,7 +13,7 @@ PulsePlate is a nutrition and health tracking application. This document provide
 **Implementation:**
 - Users can input meals in natural language: "I had two scrambled eggs, avocado toast, and orange juice for breakfast"
 - Claude extracts structured information (foods, portions, calories)
-- Use [JSON mode](./how_to_enable_json_mode.ipynb) for consistent structured output
+- Use [JSON mode](how_to_enable_json_mode.ipynb) for consistent structured output
 
 **Usage Example:**
 ```python
@@ -41,7 +41,7 @@ response = client.messages.create(
 
 **Cookbook References:**
 - [Tool Use](../tool_use/) - function integration for logging
-- [JSON Mode](./how_to_enable_json_mode.ipynb) - structured output
+- [JSON Mode](how_to_enable_json_mode.ipynb) - structured output
 
 ### 2. Food Image Analysis
 
@@ -204,7 +204,7 @@ def chat(user_message):
 - Protection against eating disorders
 
 **Cookbook References:**
-- [Building Moderation Filter](./building_moderation_filter.ipynb)
+- [Building Moderation Filter](building_moderation_filter.ipynb)
 
 ### 9. Nutrition Database Integration
 
@@ -226,7 +226,7 @@ tools = [{
 ```
 
 **Cookbook References:**
-- [How to Make SQL Queries](./how_to_make_sql_queries.ipynb)
+- [How to Make SQL Queries](how_to_make_sql_queries.ipynb)
 
 ### 10. Batch Data Processing
 
@@ -239,7 +239,7 @@ tools = [{
 - A/B testing of advice
 
 **Cookbook References:**
-- [Batch Processing](./batch_processing.ipynb)
+- [Batch Processing](batch_processing.ipynb)
 
 ### 11. Prompt Caching for Efficiency
 
@@ -257,8 +257,8 @@ tools = [{
 - Significant latency reduction
 
 **Cookbook References:**
-- [Prompt Caching](./prompt_caching.ipynb)
-- [Speculative Prompt Caching](./speculative_prompt_caching.ipynb)
+- [Prompt Caching](prompt_caching.ipynb)
+- [Speculative Prompt Caching](speculative_prompt_caching.ipynb)
 
 ### 12. Automated Testing
 
@@ -271,8 +271,8 @@ tools = [{
 - Regression testing
 
 **Cookbook References:**
-- [Building Evals](./building_evals.ipynb)
-- [Generate Test Cases](./generate_test_cases.ipynb)
+- [Building Evals](building_evals.ipynb)
+- [Generate Test Cases](generate_test_cases.ipynb)
 
 ## Solution Architecture
 

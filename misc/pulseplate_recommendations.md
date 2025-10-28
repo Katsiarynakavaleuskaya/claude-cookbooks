@@ -13,7 +13,7 @@ PulsePlate - это приложение для отслеживания пит�
 **Реализация:**
 - Пользователи могут вводить приёмы пищи на естественном языке: "Я съел две яичницы, тост с авокадо и апельсиновый сок на завтрак"
 - Claude извлекает структурированную информацию (продукты, порции, калории)
-- Используйте [JSON mode](./how_to_enable_json_mode.ipynb) для получения последовательного структурированного вывода
+- Используйте [JSON mode](how_to_enable_json_mode.ipynb) для получения последовательного структурированного вывода
 
 **Пример использования:**
 ```python
@@ -41,7 +41,7 @@ response = client.messages.create(
 
 **Ссылки из cookbook:**
 - [Tool Use](../tool_use/) - интеграция функций логирования
-- [JSON Mode](./how_to_enable_json_mode.ipynb) - структурированный вывод
+- [JSON Mode](how_to_enable_json_mode.ipynb) - структурированный вывод
 
 ### 2. Анализ изображений еды
 
@@ -204,7 +204,7 @@ def chat(user_message):
 - Защита от расстройств пищевого поведения
 
 **Ссылки из cookbook:**
-- [Building Moderation Filter](./building_moderation_filter.ipynb)
+- [Building Moderation Filter](building_moderation_filter.ipynb)
 
 ### 9. Интеграция с базами данных питания
 
@@ -226,7 +226,7 @@ tools = [{
 ```
 
 **Ссылки из cookbook:**
-- [How to Make SQL Queries](./how_to_make_sql_queries.ipynb)
+- [How to Make SQL Queries](how_to_make_sql_queries.ipynb)
 
 ### 10. Пакетная обработка данных
 
@@ -239,7 +239,7 @@ tools = [{
 - A/B тестирование советов
 
 **Ссылки из cookbook:**
-- [Batch Processing](./batch_processing.ipynb)
+- [Batch Processing](batch_processing.ipynb)
 
 ### 11. Prompt Caching для эффективности
 
@@ -257,8 +257,8 @@ tools = [{
 - Значительное снижение латентности
 
 **Ссылки из cookbook:**
-- [Prompt Caching](./prompt_caching.ipynb)
-- [Speculative Prompt Caching](./speculative_prompt_caching.ipynb)
+- [Prompt Caching](prompt_caching.ipynb)
+- [Speculative Prompt Caching](speculative_prompt_caching.ipynb)
 
 ### 12. Автоматизированное тестирование
 
@@ -271,8 +271,8 @@ tools = [{
 - Регрессионное тестирование
 
 **Ссылки из cookbook:**
-- [Building Evals](./building_evals.ipynb)
-- [Generate Test Cases](./generate_test_cases.ipynb)
+- [Building Evals](building_evals.ipynb)
+- [Generate Test Cases](generate_test_cases.ipynb)
 
 ## Архитектура решения
 
